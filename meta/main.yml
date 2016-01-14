@@ -12,8 +12,10 @@ galaxy_info:
     - development
     - web
 dependencies:
-  - role: aeriscloud.repos
+  - role: AerisCloud.repos
     repositories:
       centos6:
         - slc6-devtoolset
-  - role: aeriscloud.yum
+    tags:
+      - devtoolset2
+  - role: AerisCloud.yum
